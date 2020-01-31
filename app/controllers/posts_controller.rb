@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   end
 
   def new
-
+    redirect_to("/")
   end
 
   def create
